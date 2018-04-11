@@ -1,0 +1,86 @@
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+    background: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.page {
+    display: flex;
+    flex: 1;
+    flex-flow: column;
+}
+
+.input-bar {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.input {
+    flex: 1;
+    resize: none;
+    outline: none;
+}
+
+.submit {
+    border: 1px solid black;
+    width: 100px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sets {
+    display: flex;
+    flex-flow: column;
+}
+
+.set {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.set:hover {
+    background: black;
+    color:  white;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-size: 3em;
+    font-weight: 600;
+    flex-flow: column;
+}
+
+.card-img {
+    max-width: 400px;
+}
